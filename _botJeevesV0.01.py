@@ -49,7 +49,7 @@ async def join(context):
 
 
 @client.command(name='dc',
-                description='Disconnects bot from voice channel',
+                description='Disconnect bot from voice channel',
                 pass_context=True)
 async def disconnect(context):
     vchannel = context.voice_client
