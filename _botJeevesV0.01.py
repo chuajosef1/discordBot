@@ -81,6 +81,14 @@ async def join(context):
     await vchannel.connect()
 
 
+@client.command(name='dc',
+                description='Disconnect bot from voice channel',
+                pass_context=True)
+async def disconnect(context):
+    vchannel = context.voice_client
+    await vchannel.disconnect()
+
+
 ##########################################
 # Discord Bot Client Events
 # Description:
