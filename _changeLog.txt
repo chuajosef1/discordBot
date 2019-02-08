@@ -1,0 +1,21 @@
+Change Log:
+Date: October 25, 2018
+Version 0.01
+
+Changed bots name from Weeb bot  -> Bot Jeeves
+Added time command
+Added League of legends command
+Added Eight ball command
+Removed Bitcoin command
+
+##########################################################
+
+Change Log:
+Date: February 5, 2019
+Version 0.01
+
+Removed time command
+Removed League of Legends command
+Reason: Changes made to discord api from 3.6 to 3.7 
+	made commands unusuable for the time being. 
+	Will comeback and re-add them at a later date.a
