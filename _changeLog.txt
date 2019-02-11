@@ -1,6 +1,8 @@
+##########################################################
 Change Log:
 Date: October 25, 2018
 Version 0.01
+##########################################################
 
 Changed bots name from Weeb bot  -> Bot Jeeves
 Added time command
@@ -9,13 +11,33 @@ Added Eight ball command
 Removed Bitcoin command
 
 ##########################################################
-
 Change Log:
 Date: February 5, 2019
 Version 0.01
+##########################################################
 
 Removed time command
 Removed League of Legends command
 Reason: Changes made to discord api from 3.6 to 3.7 
 	made commands unusuable for the time being. 
-	Will comeback and re-add them at a later date.a
+	Will comeback and re-add them at a later date.
+
+
+##########################################################
+Change Log:
+Date: February 11, 2019
+Version 0.02
+##########################################################
+
+Changed discord bot code to work with python 3.7, refer to 
+discord rewrite api on how to make the changes below.
+
+Link: https://discordpy.readthedocs.io/en/rewrite/index.html#
+
+Major Changes: 
+Added join command - Allows the bot to join a voice channel.
+Added dc command - Disconnects the bot from the voice 
+		   channel it is connects too.
+Edited 8ball command - Made changes to make the command work
+		       with python 3.7.
+
